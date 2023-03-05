@@ -125,7 +125,7 @@ form{
 }
 
 .article{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     letter-spacing: 1.5px;
     box-sizing: content-box;
@@ -163,8 +163,8 @@ form{
 .article1{
 
     /*text-shadow: none;*/
-    text-transform: uppercase;
-    font-size: 15px;
+    text-transform: lowercase;
+    font-size: 14px;
     font-weight: 400;
     letter-spacing: 2px;
     color: black;   

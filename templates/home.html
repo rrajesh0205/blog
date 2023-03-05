@@ -83,9 +83,7 @@
                 <a href="{% url 'delete' article.pk %}" class="tooltipdelete" ><span>Delete</span>
                 <img src="{% static 'trash.png' %}" width = "16" height = "16"/></a>
                 &nbsp;&nbsp;
-            </div>
-                
-
+            </div>           
             <div class="artbody">
                 <a href="{% url 'detail' article.pk %}">{{ article.title }}</a>
             </div>
