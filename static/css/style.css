@@ -162,7 +162,7 @@ form{
   
 .article1{
 
-    /*text-shadow: none;*/
+    text-shadow: none;
     text-transform: lowercase;
     font-size: 14px;
     font-weight: 400;
