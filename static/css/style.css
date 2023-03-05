@@ -37,20 +37,18 @@ body, html
 input[type="text"]
 {
     width: 100%;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 1.5px;
-    
+    font-family: "Mona-Sans Regular";
+    font-size: 18px;
     height: 25px;
+
     
 }
 
 textarea
 {
     width: 100%;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 1.5px;
+    font-family: "Mona-Sans Regular";
+    font-size: 18px;
     font-family: inherit;
     
 }
@@ -64,13 +62,13 @@ input[type="submit"], button[type="submit"]
 }
 button[type="submit"], input[type="submit"]
 { 
+  font-family: "Mona-Sans Regular";
   display: inline-block;  
   height: 100px;
   width: 100%;
   margin-top: 20px;
-  font-size: 36px;
-  font-weight: 500;     
-  text-transform: uppercase;
+  font-size: 48px;
+  text-transform: lowercase;
   line-height: 100px;
   text-align: center;
   letter-spacing: 3px;
@@ -118,10 +116,9 @@ a:hover{
   height:100%;*/
 }
 form{
-  font-size: 22px;
-  font-weight: 500;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
+  font-size: 32px;
+  /*letter-spacing: 1.5px;*/
+  text-transform: lowercase;
   
 }
 
