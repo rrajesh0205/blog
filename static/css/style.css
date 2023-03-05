@@ -210,10 +210,9 @@ form{
 /* Add a black background color to the top navigation */
 
 .modmenu {
-  font-weight: 600;
   letter-spacing: 3px;
   font-size: 15px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: #ffc515;
   float: right;
 }
