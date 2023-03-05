@@ -429,6 +429,7 @@ form{
 
 #menu li
 {
+  /*change font size for home/create/contact here*/
   padding: 10px 0;
   font-size: 32px;
   text-transform: lowercase;
