@@ -9,7 +9,6 @@ body, html
   margin: 0; 
   padding: 0; 
   outline: 0;
-  font-family: 'Playfair Display', serif;
   font-size: 14px;
   overflow-x: hidden;
   overflow-y: auto;
@@ -142,7 +141,6 @@ form{
     
 }
 .artbody{
-  font-family: 'Work Sans', sans-serif;
         font-weight: 400;
     font-size: 24px;
     text-transform: lowercase;    
@@ -150,7 +148,7 @@ form{
 
 
 .artbody_new{
-  font-family: 'Work Sans', sans-serif;    font-weight: 300;
+  font-weight: 300;
   text-transform: lowercase;
   font-size: 15px;
   
