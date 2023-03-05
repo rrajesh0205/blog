@@ -179,11 +179,10 @@ form{
 }
 
 .myDiv {
-    font-weight: 500;
     letter-spacing: 3px;
-    font-size: 48px;
+    font-size: 60px;
     color: white;
-    text-transform: uppercase;
+    text-transform: lowercase;
     /*background-color:black;*/
     margin-left: 1px;
     text-align: center;
