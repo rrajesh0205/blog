@@ -176,7 +176,9 @@ form{
 }
 
 .myDiv {
+
     letter-spacing: 3px;
+    font-family: "Mona-Sans Medium";
     font-size: 60px;
     color: white;
     text-transform: lowercase;
