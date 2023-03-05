@@ -430,8 +430,9 @@ form{
 #menu li
 {
   padding: 10px 0;
-  font-size: 26px;
-  
+  font-size: 32px;
+  text-transform: lowercase;
+
 }
 
 /*
