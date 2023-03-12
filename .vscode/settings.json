@@ -1,7 +1,7 @@
 {
      "editor.tabSize": 5,
-     "python.linting.pylintEnabled": false,
+     "python.linting.pylintEnabled": true,
      "python.linting.enabled": true,
      "python.pythonPath": "C:\\Users\\Rajesh R\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
-     "python.linting.flake8Enabled": true
+     "python.linting.flake8Enabled": false
 }
