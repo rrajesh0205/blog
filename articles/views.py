@@ -2,7 +2,6 @@ from django.views.generic import ListView, DetailView, CreateView, UpdateView, D
 from django.urls import reverse_lazy
 from .models import Article
 from .forms import PostForm
-from django.shortcuts import render, redirect
 
 
 class ArticleListView(ListView):
@@ -28,12 +27,13 @@ class ArticleUpdate(UpdateView):
     template_name = 'create.html'
     success_url = reverse_lazy('home')
 
+
 class ArticleDelete(DeleteView):
     model = Article
     template_name = 'delete.html'
     success_url = reverse_lazy('home')
 
+
 class ArticleAboutView(ListView):
     model = Article
     template_name = 'about.html'
-    
