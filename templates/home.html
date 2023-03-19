@@ -73,9 +73,16 @@
 <div class="container">
     {% for article in object_list|dictsortreversed:"created_at" %}
         <div class="article">
+            <div class="modmenu">                
+                <a href="{% url 'article_edit' article.pk %}" class="tooltipedit">Edit</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="{% url 'delete' article.pk %}" class="tooltipdelete" >Delete</a>
+                &nbsp;&nbsp;
+            </div>  
             <div class="artbody">
                 <a href="{% url 'detail' article.pk %}">{{ article.title }}</a>
             </div>
+            
             <br>
             <div class="artbody_new">
                 {{ article.body }}
@@ -101,14 +108,7 @@
                     Update:&nbsp;{{ article.updated_at }}
                 {% endif %}
             </div>
-            <div class="modmenu">
-                <a href="{% url 'article_edit' article.pk %}" class="tooltipedit"> <span>Edit</span>
-                <img src="{% static '35-edit-flat.gif' %}" width = "50" height = "50"/></a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="{% url 'delete' article.pk %}" class="tooltipdelete" ><span>Delete</span>
-                <img src="{% static '185-trash-bin-flat.gif' %}" width = "50" height = "50"/></a>
-                &nbsp;&nbsp;
-            </div>   
+             
         </div>
     <br>
   {% endfor %}
