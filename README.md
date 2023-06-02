@@ -1,3 +1,6 @@
 # 26022023
 A simple blog with Django in back end.
-The blog
+The Menu contains...
+1. Home 
+2. Create
+
