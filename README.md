@@ -6,5 +6,6 @@ The Menu contains...
 2. Create
 
 The default page opens up to the home.
-To create a new post, open 
+
+To create a new post, Click on Create to redirect to create page. 
 
