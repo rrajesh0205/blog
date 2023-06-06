@@ -6,7 +6,7 @@ The Menu contains...
 2. Create
 
 The default page opens up to the home.
-In case a post needs to be 
+In case a post needs to be modified, click on the Edit Button
 
 To create a new post, Click on Create to redirect to create page. 
 
