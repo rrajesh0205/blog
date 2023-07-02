@@ -218,7 +218,7 @@ form{
 .topnav {
     font-family: "Mona-Sans Regular";
     font-weight: 400;
-    font-size: 32px;  
+    font-size: 28px;  
     text-transform: none;
     background-color: #ffc515;
     overflow: hidden;
@@ -230,7 +230,7 @@ form{
   .topnav a {
     font-family: "Mona-Sans Regular";
     font-weight: 400;
-    font-size: 32px;  
+    font-size: 28px;  
     float: right;
     color: #f2f2f2;
     text-align: center;
@@ -244,7 +244,7 @@ form{
   .topnav a:hover {
     font-family: "Mona-Sans Regular";
     font-weight: 400;
-    font-size: 32px;  
+    font-size: 28px;  
     background-color: black;
     color: white;
   }
@@ -253,7 +253,7 @@ form{
   .topnav a.active {
     font-family: "Mona-Sans Regular";
     font-weight: 400;
-    font-size: 32px; 
+    font-size: 28px; 
     background-color: black;
     color: white;
 
