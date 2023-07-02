@@ -217,7 +217,7 @@ form{
 }
 .topnav {
     font-family: "Mona-Sans Regular";
-    font-weight: 400;
+    font-weight: bold;
     font-size: 28px;  
     text-transform: none;
     background-color: #ffc515;
@@ -229,7 +229,7 @@ form{
   /* Style the links inside the navigation bar */
   .topnav a {
     font-family: "Mona-Sans Regular";
-    font-weight: 400;
+    font-weight: bold;
     font-size: 28px;  
     float: right;
     color: #f2f2f2;
@@ -243,6 +243,7 @@ form{
   /* Change the color of links on hover */
   .topnav a:hover {
     font-family: "Mona-Sans Regular";
+    font-weight: bold;
     font-weight: 400;
     font-size: 28px;  
     background-color: black;
@@ -252,6 +253,7 @@ form{
   /* Add a color to the active/current link */
   .topnav a.active {
     font-family: "Mona-Sans Regular";
+    font-weight: bold;
     font-weight: 400;
     font-size: 28px; 
     background-color: black;
