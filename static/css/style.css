@@ -598,3 +598,12 @@ b span
      color: #ffc515;
      font-size: 60px;
 }
+
+
+a.navbar-brand {
+  font-size: 50px;
+  color:#fff ! important;
+}
+.navbar-brand{
+  margin-left: 0 ! important;
+}
