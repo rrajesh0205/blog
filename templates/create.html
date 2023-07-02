@@ -10,21 +10,12 @@
 </nav>
 </header>
 <br>
-<!--
-<div class="myDiv">
-    <a href="">My Blog</a>
-</div>
--->
 <div class="createcontainer">
-
-        <form method="post" enctype="multipart/form-data">
-            {% csrf_token %}
-
-                {{ form.as_p }}
-
-            <button type="submit">Create Post</button>
-        </form>
-    
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+            {{ form.as_p }}
+        <button type="submit">Create Post</button>
+    </form> 
 </div>
 
 {% endblock %}
