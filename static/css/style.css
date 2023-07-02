@@ -231,9 +231,11 @@ form{
     font-family: "Mona-Sans Regular";
     font-weight: 400;
     font-size: 32px;  
-    text-transform: none;
-    background-color: #ffc515;
-    overflow: hidden;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
     
        
   }
