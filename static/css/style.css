@@ -218,6 +218,7 @@ form{
 .topnav {
     font-family: "Mona-Sans Regular";
     font-weight: bold;
+    font-weight: 400;
     font-size: 28px;  
     text-transform: none;
     background-color: #ffc515;
@@ -230,6 +231,7 @@ form{
   .topnav a {
     font-family: "Mona-Sans Regular";
     font-weight: bold;
+    font-weight: 400;
     font-size: 28px;  
     float: right;
     color: #f2f2f2;
@@ -607,5 +609,54 @@ b span
     font-size: 28px;  
     color: #f2f2f2;
     text-decoration: none;
+
+}
+
+
+.topnav1 {
+  font-family: "Mona-Sans Regular";
+  font-weight: bold;
+  font-weight: 400;
+  font-size: 28px;  
+  text-transform: none;
+  background-color: black;
+  overflow: hidden;
+  
+  
+}
+
+/* Style the links inside the navigation bar */
+.topnav1 a {
+  font-family: "Mona-Sans Regular";
+  font-weight: bold;
+  font-weight: 400;
+  font-size: 28px;  
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+     
+}
+
+/* Change the color of links on hover */
+.topnav1 a:hover {
+  font-family: "Mona-Sans Regular";
+  font-weight: bold;
+  font-weight: 400;
+  font-size: 28px;  
+  background-color: black;
+  color: #ffc515;
+}
+
+/* Add a color to the active/current link */
+.topnav1 a.active {
+  font-family: "Mona-Sans Regular";
+  font-weight: bold;
+  font-weight: 400;
+  font-size: 28px; 
+  background-color: black;
+  color: #ffc515;
 
 }
