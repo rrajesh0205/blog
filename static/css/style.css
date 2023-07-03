@@ -600,21 +600,12 @@ b span
 }
 
 
-a.navbar-brand {
-  font-family: "Mona-Sans Regular";
-  font-weight: bold;
-  font-size: 28px;  
-  text-transform: none;
-  background-color: #ffc515;
-  overflow: hidden;
-  }
 .navbar-brand{
   margin-left: 0 ! important;
   font-family: "Mona-Sans Regular";
     font-weight: bold;
     font-size: 28px;  
-    text-transform: none;
-    background-color: #ffc515;
-    overflow: hidden;
-    
+    color: #f2f2f2;
+    text-decoration: none;
+
 }
