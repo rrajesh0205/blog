@@ -615,7 +615,6 @@ b span
 
 .topnav1 {
   font-family: "Mona-Sans Regular";
-  font-weight: bold;
   font-weight: 400;
   font-size: 28px;  
   text-transform: none;
@@ -628,7 +627,6 @@ b span
 /* Style the links inside the navigation bar */
 .topnav1 a {
   font-family: "Mona-Sans Regular";
-  font-weight: bold;
   font-weight: 400;
   font-size: 28px;  
   float: left;
@@ -643,7 +641,6 @@ b span
 /* Change the color of links on hover */
 .topnav1 a:hover {
   font-family: "Mona-Sans Regular";
-  font-weight: bold;
   font-weight: 400;
   font-size: 28px;  
   background-color: black;
@@ -653,7 +650,6 @@ b span
 /* Add a color to the active/current link */
 .topnav1 a.active {
   font-family: "Mona-Sans Regular";
-  font-weight: bold;
   font-weight: 400;
   font-size: 28px; 
   background-color: black;
