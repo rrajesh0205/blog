@@ -64,12 +64,12 @@ button[type="submit"], input[type="submit"]
 { 
   font-family: "Mona-Sans Regular";
   display: inline-block;  
-  height: 100px;
+  height: 94px;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 0px;
   font-size: 48px;
   text-transform: lowercase;
-  line-height: 100px;
+  line-height: 96px;
   text-align: center;
   letter-spacing: 3px;
   background-color: black;
@@ -116,7 +116,7 @@ a:hover{
   height:100%;*/
 }
 form{
-  font-size: 32px;
+  font-size: 30px;
   /*letter-spacing: 1.5px;*/
   text-transform: lowercase;
   
@@ -236,7 +236,7 @@ form{
     float: right;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: none;
     
        
@@ -632,7 +632,7 @@ b span
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 12px;
   text-decoration: none;
   
      
