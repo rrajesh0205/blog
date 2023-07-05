@@ -656,3 +656,16 @@ b span
   color: #ffc515;
 
 }
+
+.topnavnew {
+  font-family: "Mona-Sans Regular";
+  font-weight: 400;
+  font-size: 28px;  
+  float: center;
+  background-color: #ffc515;
+  color: black;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+
+}
