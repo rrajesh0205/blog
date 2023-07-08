@@ -6,13 +6,13 @@
     <div class="navbar" id="myNavbar">
         <a href="/" class="active">Home</a>
         <a href="create/">New Post</a>
-        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
 </nav>
 </header>
-
 <br>
-
+<br>
+<br>
+<br>
 <div class="container">
     {% for article in object_list|dictsortreversed:"created_at" %}
         <div class="article">
