@@ -452,6 +452,8 @@ form{
 a.tooltipedit, a.tooltipdelete  {
   position: relative;
   font-size: 14px;
+  
+
 }
 
 a.tooltipedit span, a.tooltipdelete span {
