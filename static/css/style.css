@@ -1,12 +1,11 @@
-
 @font-face {
-	  font-family: 'HelveticaNeueLTPro';
-    src: url("../fonts/helvetica-neue-regular.ttf");
+	font-family: 'HelveticaNeueLTPro';
+    src: url("../css/fonts/HelveticaNeueLTPro-Roman.ttf");
 }
 
 body, html 
 {
-  font-family: "Mona-Sans Regular";
+	font-family: 'HelveticaNeueLTPro', sans-serif;
   font-weight: 400;
   margin: 0; 
   padding: 0; 
