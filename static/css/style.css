@@ -729,3 +729,7 @@ b span
   font-weight: 400;
   font-size: 36px;
   }
+  span
+  {
+    color: #ffc515;
+  }
