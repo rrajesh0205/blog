@@ -725,3 +725,7 @@ b span
     text-align: left;
   } 
 }
+.about{
+  font-weight: 400;
+  font-size: 36px;
+  }
