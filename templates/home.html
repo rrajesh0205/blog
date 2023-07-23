@@ -6,8 +6,7 @@
     <div class="navbar" id="myNavbar">
         <a href="/" class="active">Home</a>
         <a href="about/">Contact</a>
-        <a href="create/">New Post</a>
-        
+        <a href="create/">New Post</a>        
     </div>
 </nav>
 </header>
@@ -26,15 +25,13 @@
             </div>  
             <div class="artbody">
                 <a href="{% url 'detail' article.pk %}">{{ article.title }}</a>
-            </div>
-            
+            </div>            
             <br>
             <div class="artbody_new">
                 {{ article.body }}
             </div>
             <br>
-            <br>
-                
+            <br>                
             {% if article.img.url != Null %}
                 <center> <div class="imagediv">
                     <a href={{article.img.url}} data-fancybox data-caption="..">
@@ -52,14 +49,12 @@
                 {% if article.updated_at != article.created_at %}
                     Update:&nbsp;{{ article.updated_at }}
                 {% endif %}
-            </div>
-             
+            </div>             
         </div>
     <br>
   {% endfor %}
   <br>
 </div>
-
 {% endblock %}
 
 
