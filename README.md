@@ -1,4 +1,4 @@
-# 26022023
+# blog.
 A simple blog with Django in back end.
 
 The Menu contains...
