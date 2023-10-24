@@ -15,15 +15,16 @@
 <br>
 <br>
 <div class="container">
+    
         <div class="article">
             
             <div class="modmenu">
-                <a href="{% url 'article_edit' article.pk %}" class="tooltip"> <span>Edit</span>
-                <img src="{% static 'edit.png' %}" width = "16" height = "16"/></a>
-                    &nbsp;&nbsp;
-                <a href="{% url 'delete' article.pk %}" class="tooltip" ><span>Delete</span>
-                <img src="{% static 'trash.png' %}" width = "16" height = "16"/></a>
-                &nbsp;&nbsp;
+                        <a href="{% url 'article_edit' article.pk %}" class="tooltip"> <span>Edit</span>
+                        <img src="{% static 'edit.png' %}" width = "16" height = "16"/></a>
+                            &nbsp;&nbsp;
+                        <a href="{% url 'delete' article.pk %}" class="tooltip" ><span>Delete</span>
+                        <img src="{% static 'trash.png' %}" width = "16" height = "16"/></a>
+                        &nbsp;&nbsp;
             </div>
             <div class="artbody">
                 <a href="{% url 'detail' article.pk %}">{{ article.title }}</a>
