@@ -733,3 +733,46 @@ b span
   {
     color: #ffc515;
   }
+
+  .navbarnew {
+    overflow: hidden;
+    background-color: #faf7ee;
+    /*background-color: #ffc515;*/
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .navbarnew a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  .navbarnew a:hover {
+    background-color: white;
+    color: #f9dc5c;
+  }
+  .navbarnew a.active {
+    background-color: #f9dc5c;
+    color: black;
+    cursor: not-allowed;
+    pointer-events: all !important;
+    overflow: hidden;
+    width: 100%;
+  }
+  .navbarnew .icon {
+    display: none;
+  }
+  .navbarnew .bottom {
+    float: right;
+    display: block;
+    color: #000000;
+    padding: 1%;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
