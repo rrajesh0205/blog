@@ -741,7 +741,7 @@ b span
     color: black;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 50%;
   }
   .navbarnew a {
     float: left;
