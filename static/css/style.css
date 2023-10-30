@@ -675,7 +675,7 @@ b span
   overflow: hidden;
   background-color: #ffc515;
   color: black;
-  position: fixed;
+  position: sticky;
   z-index:1; /*Add this*/
   top: 0;
   width: 100%;
